@@ -117,11 +117,14 @@
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_reference_v3/integrated_criteria_v3.json",
     "export_path": "assets/criteria_reference_v3/integrated_criteria_v3.json",
     "original_sha256": "b03ba89d58618212d820e1e2208b801ee65013823eb48ab35b6a8c6722475dc0",
-    "export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
+    "export_sha256": "1b62d1f4fec0e1fa723199364d89f75f016e16514597bdfb4f0388cfa65ab75f",
     "verbatim": false,
-    "changes": "Five local_source absolute path prefixes removed; filenames, criterion conditions, original text and selection rules unchanged",
+    "changes": "Five local_source absolute path prefixes removed; filenames, criterion conditions, original text and selection rules unchanged Public-reference metadata revision: title aligned with paper, current procedure v3.2 and validation r1 explicit, draft labels normalized for 14 guideline version fields, historical activation/comparison moved to exact-byte historical snapshot. All source/instruction text and emitted model inputs unchanged.",
     "previous_recorded_export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
     "reviewed_commit_export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
-    "original_hash_verified_locally": true
+    "original_hash_verified_locally": true,
+    "before_current_metadata_revision_export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
+    "current_metadata_revision": "public-reference-metadata-20261018-01",
+    "historical_public_reference_file": "provenance/history/integrated_criteria_v3_at_69f6c22.json"
   }
 ]
