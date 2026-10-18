@@ -285,7 +285,7 @@ C를 O로 제안한 사례는 없었으나 S→O는 문단 54개, 문서 23개�
 | 문법 구성과 자동 검증 r1 | [validation](src/cso_rag/validation/) |
 | 문서상 규칙과 실제 강제 범위 | [프로토콜 설명](docs/PROTOCOL.md) |
 | 논문 코드 대응 및 후보/최종 설정 차이 | [연구 대응표](docs/RESEARCH_CORRESPONDENCE.md) |
-| 공개 범위와 점검 기록 | [publication_checks.json](provenance/publication_checks.json) |
+| 공개 범위와 점검 기록 | [verification.json](provenance/verification.json) |
 | 외부 자료의 출처와 이용 조건 | [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) |
 | 코드 라이선스 선택 사항 | [LICENSE_OPTIONS.md](LICENSE_OPTIONS.md) |
 
