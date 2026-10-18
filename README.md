@@ -265,7 +265,7 @@ C를 O로 제안한 사례는 없었으나 S→O는 문단 54개, 문서 23개�
 | 생성·중단 | temperature 0, seed 42, 반복 감지 및 응답별 300초 |
 | 실행 | Flash Attention, batch/ubatch 128, threads 6; 요청마다 독립 문맥 |
 
-고정 가중치와 템플릿의 해시는 `config.example.json`과 [모델 출처 문서](docs/MODELS.md)에 있다. 동일한 시드가 GPU 빌드나 다른 하드웨어에서 결과의 완전한 동일성을 보장하지는 않는다. 공개용 리팩터링은 최종 465개 저장 입력의 구성과 근거 registry, 스키마와 문법을 대조했으며, 완성된 461개 응답의 재검증 결과가 같았다. 공개 코드로 전체 최종 실험을 새로 생성하여 동일한 점수를 확인한 것은 아니다.
+고정 가중치와 템플릿의 해시는 `config.example.json`에 있다. 동일한 시드가 GPU 빌드나 다른 하드웨어에서 결과의 완전한 동일성을 보장하지는 않는다. 공개용 리팩터링은 최종 465개 저장 입력의 구성과 근거 registry, 스키마와 문법을 대조했으며, 완성된 461개 응답의 재검증 결과가 같았다. 공개 코드로 전체 최종 실험을 새로 생성하여 동일한 점수를 확인한 것은 아니다.
 
 공개 코드의 가상 예제 2문단에서는 실제 GPU 임베딩과 top-3 검색, Qwen의 37/37 레이어 적재, 답변 생성과 필수 검증 통과를 확인했다. 이는 작동 확인이며 분류 성능이나 의미상 타당성 평가가 아니다. 가상 예제에서 형식 검증을 통과하면서 부적절한 기준을 적용한 응답도 보존했으며, 성공 사례만 골라 의미상 정확성을 주장하지 않는다. 세부 기록은 `provenance/gpu_smoke_summary.json`에 있다.
 
@@ -283,11 +283,8 @@ C를 O로 제안한 사례는 없었으나 S→O는 문단 54개, 문서 23개�
 | 입력 구성, 근거 ID 연결 및 문서 집계 | [core.py](src/cso_rag/core.py) |
 | 생성과 응답 저장 | [generation.py](src/cso_rag/generation.py) |
 | 문법 구성과 자동 검증 r1 | [validation](src/cso_rag/validation/) |
-| 문서상 규칙과 실제 강제 범위 | [프로토콜 설명](docs/PROTOCOL.md) |
-| 논문 코드 대응 및 후보/최종 설정 차이 | [연구 대응표](docs/RESEARCH_CORRESPONDENCE.md) |
 | 공개 범위와 점검 기록 | [verification.json](provenance/verification.json) |
-| 외부 자료의 출처와 이용 조건 | [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) |
-| 코드 라이선스 선택 사항 | [LICENSE_OPTIONS.md](LICENSE_OPTIONS.md) |
+
 
 전체 데이터와 원본 HTML 화면, 모델 가중치 및 대용량 로그는 이 실행 코드 패키지에 포함하지 않는다. 실제 데이터의 재배포와 코드 라이선스 및 외부 기준 발췌의 이용 조건은 각각 구분해야 한다.
 
