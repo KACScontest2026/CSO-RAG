@@ -218,3 +218,48 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# CSO-RAG project data, models, indices and execution artifacts
+/models/
+/weights/
+/indices/
+/indexes/
+/runs/
+/results/
+/outputs/
+/logs/
+/local_data/
+/private_data/
+/data/
+/cache/
+/caches/
+config.local.json
+config.*.local.json
+config.local.*
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Local credentials and authentication material
+.env
+.env.*
+!.env.example
+credentials.json
+credentials.*.json
+client_secret*.json
+token.json
+tokens.json
+*.pem
+*.key
+.huggingface/
+.hf/
+.aws/
