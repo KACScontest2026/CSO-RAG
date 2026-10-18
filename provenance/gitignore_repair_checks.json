@@ -1,0 +1,41 @@
+{
+  "basis_commit": "76e2abae558162fc4a2e00bc163b2460bcfb508e",
+  "passed": true,
+  "before": {
+    "models/model.gguf": false,
+    "indices/example/chroma.sqlite3": false,
+    "runs/example/result.json": false,
+    "local_data/documents.json": false,
+    "config.local.json": false,
+    "weights.safetensors": false,
+    ".env.private": false,
+    "credentials.json": false,
+    "private.pem": false,
+    "README.md": false,
+    "src/cso_rag/core.py": false,
+    "examples/documents.json": false,
+    "config.example.json": false
+  },
+  "after": {
+    "models/model.gguf": true,
+    "indices/example/chroma.sqlite3": true,
+    "runs/example/result.json": true,
+    "local_data/documents.json": true,
+    "config.local.json": true,
+    "weights.safetensors": true,
+    ".env.private": true,
+    "credentials.json": true,
+    "private.pem": true,
+    "README.md": false,
+    "src/cso_rag/core.py": false,
+    "examples/documents.json": false,
+    "config.example.json": false
+  },
+  "unchanged_fixed_files": 32,
+  "README_and_tables_unchanged": true,
+  "runtime_criteria_prompts_settings_unchanged": true,
+  "new_model_inference": 0,
+  "downloads": 0,
+  "remote_changed": false,
+  "license": "undecided"
+}

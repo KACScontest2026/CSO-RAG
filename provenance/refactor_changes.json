@@ -19,15 +19,17 @@
     "Add reproducibility documentation using confirmed model repository revisions",
     "Clarify synthetic-document HTML panel caption; README tables and actual model JSON unchanged",
     "Public-facing names aligned with paper: CSO-RAG 판정 기준 and RAG 기반 문단별 등급 판정. Runtime assets/IDs/settings and result tables unchanged.",
-    "Reference-only title/version/status metadata normalized; original public reference saved byte-exact as history. Full saved-input comparison verifies no model-input change. No runtime code or generation setting changes."
+    "Reference-only title/version/status metadata normalized; original public reference saved byte-exact as history. Full saved-input comparison verifies no model-input change. No runtime code or generation setting changes.",
+    "Restore project ignore rules actually missing in GitHub commit 76e2aba; verify before/after with git check-ignore. Correct provenance distinction between local preparation and uploaded state. No model/runtime/README change; license undecided."
   ],
   "evaluation_not_included": true,
   "license_not_assigned": true,
   "native_GPU_loading_and_time_limit_notes": "New wrapper must be smoke-tested in target runtime before claiming generated performance equivalence.",
-  "export_revision": "public-reference-metadata-20261018-01",
+  "export_revision": "public-gitignore-repair-20261018-01",
   "historical_export_revision": "20261018_02_gpu_checked",
   "basis_commit": "c33c8f920ee28e0bc0f6bb8fcce197bab067dccb",
   "previous_management_revision": "public-management-20261018-01",
-  "previous_public_revision": "public-management-paper-terms-20261018-02",
-  "metadata_basis_commit": "69f6c22f4fa2f316e553d0750f331aa37f5249b5"
+  "previous_public_revision": "public-reference-metadata-20261018-01",
+  "metadata_basis_commit": "69f6c22f4fa2f316e553d0750f331aa37f5249b5",
+  "gitignore_repair_basis_commit": "76e2abae558162fc4a2e00bc163b2460bcfb508e"
 }

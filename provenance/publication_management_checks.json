@@ -1,14 +1,12 @@
 {
-  "basis_commit": "c33c8f920ee28e0bc0f6bb8fcce197bab067dccb",
-  "revision": "public-management-20261018-01",
+  "basis_commit": "76e2abae558162fc4a2e00bc163b2460bcfb508e",
+  "revision": "public-gitignore-repair-20261018-01",
   "passed": true,
   "changes_to_existing_files": [
     ".gitignore",
-    "README.md",
+    "provenance/publication_management_checks.json",
     "provenance/export_hashes.json",
-    "provenance/refactor_changes.json",
-    "provenance/source_files.json",
-    "provenance/verification.json"
+    "provenance/refactor_changes.json"
   ],
   "runtime_and_fixed_assets_unchanged_count": 29,
   "README_result_tables_unchanged": true,
@@ -19,35 +17,27 @@
   "historical_records_preserved_byte_exact": 4,
   "protected_original_experiment_files_unchanged": 1407,
   "gitignore_checks": {
-    "models/m.gguf": true,
+    "models/model.gguf": true,
     "indices/example/chroma.sqlite3": true,
     "runs/example/result.json": true,
-    "results/r.json": true,
-    "outputs/r.json": true,
-    "local_data/input.json": true,
-    "data/private.json": true,
+    "local_data/documents.json": true,
     "config.local.json": true,
-    "config.windows.local.json": true,
-    ".env": true,
+    "weights.safetensors": true,
     ".env.private": true,
     "credentials.json": true,
-    "client_secret_1.json": true,
-    "token.json": true,
     "private.pem": true,
-    "key.key": true,
+    "README.md": false,
     "src/cso_rag/core.py": false,
     "examples/documents.json": false,
-    "config.example.json": false,
-    "README.md": false,
-    ".env.example": false
+    "config.example.json": false
   },
   "relative_link_checks": 22,
   "broken_relative_links": [],
   "model_free_tests": {
-    "passed": 12,
     "new_model_generation": 0,
     "new_embeddings": 0,
-    "downloads": 0
+    "downloads": 0,
+    "tests_this_revision": "Actual Git ignore behavior and file/hash/link identity only; no repeated model or unit-test execution."
   },
   "known_secret_or_private_path_pattern_findings": [],
   "license_assigned": false,
@@ -62,5 +52,22 @@
     "External material redistribution permission determination"
   ],
   "hash_manifest_policy": "export_hashes.json includes every public file except itself; archive hashes are recorded outside the archive to avoid circularity",
-  "note": "verification.json/gpu_smoke_summary.json describe earlier checks. This report describes management-only checks, not new GPU inference."
+  "note": "Current gitignore checks were executed against this repair. Other research/GPU checks are preserved prior records, not newly executed experiments.",
+  "previous_record_preserved": "provenance/history/commit_76e2aba_publication_management_checks.json",
+  "gitignore_checks_before_fix": {
+    "models/model.gguf": false,
+    "indices/example/chroma.sqlite3": false,
+    "runs/example/result.json": false,
+    "local_data/documents.json": false,
+    "config.local.json": false,
+    "weights.safetensors": false,
+    ".env.private": false,
+    "credentials.json": false,
+    "private.pem": false,
+    "README.md": false,
+    "src/cso_rag/core.py": false,
+    "examples/documents.json": false,
+    "config.example.json": false
+  },
+  "correction_note": "The older record describes locally prepared ignore rules, but GitHub commit 76e2aba did not contain those rules. Their real behavior was not rechecked in the previous upload review. The missing rules are restored here and check-ignore is executed against this release."
 }
