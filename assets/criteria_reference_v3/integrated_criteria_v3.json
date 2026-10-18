@@ -1,7 +1,8 @@
 {
-  "title": "통합 분류 기준 v3",
+  "title": "CSO-RAG 판정 기준",
   "criteria_version": "v3-confirmed-20261011-02",
-  "execution_protocol_version": "v3.1 (현재 실행용 그대로 보존)",
+  "execution_procedure_name": "RAG 기반 문단별 등급 판정",
+  "execution_protocol_version": "v3.2-selective-criteria-20261012-03"
   "status": "사용자 확정 기준 v3 / 제4호 위해 조건 OR 정정 / 정합성 재점검 / 모델 미실행",
   "active_criteria_version": "v3 for newly authorized preparation only; existing v2 runs preserved",
   "domains": {
