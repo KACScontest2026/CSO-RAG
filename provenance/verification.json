@@ -24,8 +24,11 @@
     "Full research-data performance reproduction",
     "Long-input and bulk-load stability in the public wrapper"
   ],
-  "scope": "Saved C requests and completed C responses were read locally for regression checks. No source documents, original case examples, predicted responses, or per-document test outputs are included in this export.",
+  "scope": "Historical checks used saved research inputs locally. The current public README and screen image include one selected actual stored response from a synthetic document; this is an explicitly disclosed exception. Full datasets, full research logs and gold files are not distributed.",
   "synthetic_runner_test": "Fake generation only: save result, aggregate, same-input resume without duplicate generation; no real model or GPU",
   "public_cli_input_check_passed": true,
-  "real_gpu_smoke_passed": true
+  "real_gpu_smoke_passed": true,
+  "historical_verification_record": true,
+  "verification_applies_to": "Earlier GPU-checked export; the reviewed GitHub copy has equal executable AST excluding docstrings. No new model run is represented by this management revision.",
+  "current_management_checks": "publication_management_checks.json"
 }

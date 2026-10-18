@@ -3,79 +3,115 @@
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/validation_code/__init__.py",
     "export_path": "src/cso_rag/validation/__init__.py",
     "original_sha256": "9c972c614e739ebac36ddc7ffda130d2852c4156b28ac723d38932362a5be2f1",
-    "export_sha256": "9c972c614e739ebac36ddc7ffda130d2852c4156b28ac723d38932362a5be2f1",
-    "verbatim": true
+    "export_sha256": "9d68579e0542f57ff00d4557e37b3e7e2d970a6cf2a4d17479c35a385e9f787e",
+    "verbatim": false,
+    "previous_recorded_export_sha256": "9c972c614e739ebac36ddc7ffda130d2852c4156b28ac723d38932362a5be2f1",
+    "reviewed_commit_export_sha256": "9d68579e0542f57ff00d4557e37b3e7e2d970a6cf2a4d17479c35a385e9f787e",
+    "original_hash_verified_locally": true,
+    "changes": "Reviewed GitHub copy differs from earlier export by comment/docstring removal and/or line-ending normalization; see public_code_change_history.json. Original experiment hash is preserved. No runtime code change in this management revision."
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/validation_code/validator.py",
     "export_path": "src/cso_rag/validation/validator.py",
     "original_sha256": "d570c42e6e232b62e155ac7d4964493d6a58d10bb671db8102ec57d664df5598",
-    "export_sha256": "d570c42e6e232b62e155ac7d4964493d6a58d10bb671db8102ec57d664df5598",
-    "verbatim": true
+    "export_sha256": "6be9d4f4170080e02dc0e9c864fad1f38199f6093421e772c174763de40d24d9",
+    "verbatim": false,
+    "previous_recorded_export_sha256": "d570c42e6e232b62e155ac7d4964493d6a58d10bb671db8102ec57d664df5598",
+    "reviewed_commit_export_sha256": "6be9d4f4170080e02dc0e9c864fad1f38199f6093421e772c174763de40d24d9",
+    "original_hash_verified_locally": true,
+    "changes": "Reviewed GitHub copy differs from earlier export by comment/docstring removal and/or line-ending normalization; see public_code_change_history.json. Original experiment hash is preserved. No runtime code change in this management revision."
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/validation_code/validator_base.py",
     "export_path": "src/cso_rag/validation/validator_base.py",
     "original_sha256": "a64e0eb0619c7ba0d25b28d1bcf25b6cc22477a7e1dab7d38a1de94fef545293",
-    "export_sha256": "a64e0eb0619c7ba0d25b28d1bcf25b6cc22477a7e1dab7d38a1de94fef545293",
-    "verbatim": true
+    "export_sha256": "69f476d6a87eb9658dd41a6e9242ae4748189982073f7965e59146b171562de0",
+    "verbatim": false,
+    "previous_recorded_export_sha256": "a64e0eb0619c7ba0d25b28d1bcf25b6cc22477a7e1dab7d38a1de94fef545293",
+    "reviewed_commit_export_sha256": "69f476d6a87eb9658dd41a6e9242ae4748189982073f7965e59146b171562de0",
+    "original_hash_verified_locally": true,
+    "changes": "Reviewed GitHub copy differs from earlier export by comment/docstring removal and/or line-ending normalization; see public_code_change_history.json. Original experiment hash is preserved. No runtime code change in this management revision."
   },
   {
     "original_path_relative_to_research_workspace": "qwen_smoke_support.py",
     "export_path": "src/cso_rag/case_support.py",
     "original_sha256": "0edba69920d638891438893b3a0c367e2b57a939c82fc461a0436d4b560c9ef2",
-    "export_sha256": "a1c8313b37ff2a20280a2d62a8d3e711d697a2dac9c70dbc8f86eb703a5ffbcd",
+    "export_sha256": "72f547c4e5fd99b930399bb8ee90e42359f4075939d4ac83f0f8230e72c77df2",
     "verbatim": false,
-    "changes": "Only original deduplicate_payload function copied verbatim; unused legacy schema/repetition helpers excluded"
+    "changes": "Only deduplicate_payload was extracted from the original larger module; the public copy additionally removes comments/docstrings. The original full module is not byte-identical to the public file.",
+    "previous_recorded_export_sha256": "a1c8313b37ff2a20280a2d62a8d3e711d697a2dac9c70dbc8f86eb703a5ffbcd",
+    "reviewed_commit_export_sha256": "72f547c4e5fd99b930399bb8ee90e42359f4075939d4ac83f0f8230e72c77df2",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/frozen_design/common_system_prompt.txt",
     "export_path": "assets/common_system_prompt.txt",
     "original_sha256": "b6bfd1a7a9c9cf3196edc16ecc5152a7ae7d382eea2a5cf10ae4bc5df5cc4d2a",
     "export_sha256": "b6bfd1a7a9c9cf3196edc16ecc5152a7ae7d382eea2a5cf10ae4bc5df5cc4d2a",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "b6bfd1a7a9c9cf3196edc16ecc5152a7ae7d382eea2a5cf10ae4bc5df5cc4d2a",
+    "reviewed_commit_export_sha256": "b6bfd1a7a9c9cf3196edc16ecc5152a7ae7d382eea2a5cf10ae4bc5df5cc4d2a",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/frozen_design/llm_output_schema.json",
     "export_path": "assets/llm_output_schema.json",
     "original_sha256": "0ac463062aa9c4c1f455a01d0a534270d6184677ba8341f04ffe070d106357ac",
     "export_sha256": "0ac463062aa9c4c1f455a01d0a534270d6184677ba8341f04ffe070d106357ac",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "0ac463062aa9c4c1f455a01d0a534270d6184677ba8341f04ffe070d106357ac",
+    "reviewed_commit_export_sha256": "0ac463062aa9c4c1f455a01d0a534270d6184677ba8341f04ffe070d106357ac",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/frozen_design/criteria_v3_complete_reference.json",
     "export_path": "assets/criteria_v3_complete_reference.json",
     "original_sha256": "963f018815afc8201a3225919842f3dee4311052c10d1da12183f44ed4ec25a2",
     "export_sha256": "963f018815afc8201a3225919842f3dee4311052c10d1da12183f44ed4ec25a2",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "963f018815afc8201a3225919842f3dee4311052c10d1da12183f44ed4ec25a2",
+    "reviewed_commit_export_sha256": "963f018815afc8201a3225919842f3dee4311052c10d1da12183f44ed4ec25a2",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_input/mandatory_core.json",
     "export_path": "assets/criteria_input/mandatory_core.json",
     "original_sha256": "6db5e8af71df2bd0053db232c3309e84b30869d2dcd655dbd5c805100872f713",
     "export_sha256": "6db5e8af71df2bd0053db232c3309e84b30869d2dcd655dbd5c805100872f713",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "6db5e8af71df2bd0053db232c3309e84b30869d2dcd655dbd5c805100872f713",
+    "reviewed_commit_export_sha256": "6db5e8af71df2bd0053db232c3309e84b30869d2dcd655dbd5c805100872f713",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_input/mandatory_core_model_input.txt",
     "export_path": "assets/criteria_input/mandatory_core_model_input.txt",
     "original_sha256": "643da9ceac1906ff3803148bcec2d632ef3332537fa9a6e2152b45264b6d629d",
     "export_sha256": "643da9ceac1906ff3803148bcec2d632ef3332537fa9a6e2152b45264b6d629d",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "643da9ceac1906ff3803148bcec2d632ef3332537fa9a6e2152b45264b6d629d",
+    "reviewed_commit_export_sha256": "643da9ceac1906ff3803148bcec2d632ef3332537fa9a6e2152b45264b6d629d",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_input/selection_rules.json",
     "export_path": "assets/criteria_input/selection_rules.json",
     "original_sha256": "b9e9632ab7459dc01f4c16deaad0f7c432dbb02c245c987019c46d36a02f1a10",
     "export_sha256": "b9e9632ab7459dc01f4c16deaad0f7c432dbb02c245c987019c46d36a02f1a10",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "b9e9632ab7459dc01f4c16deaad0f7c432dbb02c245c987019c46d36a02f1a10",
+    "reviewed_commit_export_sha256": "b9e9632ab7459dc01f4c16deaad0f7c432dbb02c245c987019c46d36a02f1a10",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_input/source_catalog.json",
     "export_path": "assets/criteria_input/source_catalog.json",
     "original_sha256": "cef63c7ad9581632794754a1e2a0dfec27e2187c4e2ee2a9dfe423cbdd01f55b",
     "export_sha256": "cef63c7ad9581632794754a1e2a0dfec27e2187c4e2ee2a9dfe423cbdd01f55b",
-    "verbatim": true
+    "verbatim": true,
+    "previous_recorded_export_sha256": "cef63c7ad9581632794754a1e2a0dfec27e2187c4e2ee2a9dfe423cbdd01f55b",
+    "reviewed_commit_export_sha256": "cef63c7ad9581632794754a1e2a0dfec27e2187c4e2ee2a9dfe423cbdd01f55b",
+    "original_hash_verified_locally": true
   },
   {
     "original_path_relative_to_research_workspace": "experiments/final3000_ABC_Qwen_validation_r1_resume_20261015_01/criteria_reference_v3/integrated_criteria_v3.json",
@@ -83,6 +119,9 @@
     "original_sha256": "b03ba89d58618212d820e1e2208b801ee65013823eb48ab35b6a8c6722475dc0",
     "export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
     "verbatim": false,
-    "changes": "Five local_source absolute path prefixes removed; filenames, criterion conditions, original text and selection rules unchanged"
+    "changes": "Five local_source absolute path prefixes removed; filenames, criterion conditions, original text and selection rules unchanged",
+    "previous_recorded_export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
+    "reviewed_commit_export_sha256": "3842371f4a3fc9f726e84ca985c170e9ec9202a4d3d64149759cd3d5b33bb09c",
+    "original_hash_verified_locally": true
   }
 ]

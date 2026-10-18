@@ -1,0 +1,27 @@
+{
+  "models": [
+    {
+      "repo": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "weight_file": "model.safetensors",
+      "model_id_in_download_record": "qwen3-embedding-0.6b",
+      "weight_sha256": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd",
+      "license_label_in_download_record": "Apache-2.0",
+      "confirmation_basis": "Preserved preparation_20261007/manifest.json repository/revision/file/hash record; not a newly executed download",
+      "provider_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/tree/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+    },
+    {
+      "repo": "Qwen/Qwen3-8B-GGUF",
+      "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "weight_file": "Qwen3-8B-Q4_K_M.gguf",
+      "model_id_in_download_record": "qwen3-8b",
+      "weight_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "license_label_in_download_record": "Apache-2.0",
+      "confirmation_basis": "Preserved preparation_20261007/manifest.json repository/revision/file/hash record; not a newly executed download",
+      "provider_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/tree/7c41481f57cb95916b40956ab2f0b139b296d974"
+    }
+  ],
+  "downloads_in_this_revision": 0,
+  "license_assigned_to_project_code": false,
+  "network_availability_rechecked_in_this_revision": false
+}

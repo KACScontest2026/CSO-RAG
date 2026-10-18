@@ -1,0 +1,163 @@
+{
+  "basis_commit": "c33c8f920ee28e0bc0f6bb8fcce197bab067dccb",
+  "earlier_export": "cso_evidence_rag_github_20261018_02",
+  "files": [
+    {
+      "file": "src/cso_rag/__init__.py",
+      "previous_GPU_checked_export_sha256": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+      "reviewed_commit_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "management_revision_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 0,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/case_support.py",
+      "previous_GPU_checked_export_sha256": "a1c8313b37ff2a20280a2d62a8d3e711d697a2dac9c70dbc8f86eb703a5ffbcd",
+      "reviewed_commit_sha256": "72f547c4e5fd99b930399bb8ee90e42359f4075939d4ac83f0f8230e72c77df2",
+      "management_revision_sha256": "72f547c4e5fd99b930399bb8ee90e42359f4075939d4ac83f0f8230e72c77df2",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 1,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/cli.py",
+      "previous_GPU_checked_export_sha256": "69dbde7463cdca0d2de66b75600133186d4a28ba74dc85468b516811674edeed",
+      "reviewed_commit_sha256": "69dbde7463cdca0d2de66b75600133186d4a28ba74dc85468b516811674edeed",
+      "management_revision_sha256": "69dbde7463cdca0d2de66b75600133186d4a28ba74dc85468b516811674edeed",
+      "byte_identical_to_previous_export": true,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 0,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/core.py",
+      "previous_GPU_checked_export_sha256": "b9518ed60596d905d33fe43737b355e23b605bfe9b8e3fcb1e4e2409535c14ad",
+      "reviewed_commit_sha256": "62749199c732af81b41438d13484b859d2266e02f87022af620cd47971a8e4f7",
+      "management_revision_sha256": "62749199c732af81b41438d13484b859d2266e02f87022af620cd47971a8e4f7",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 2,
+      "docstrings_removed": 2,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/criteria.py",
+      "previous_GPU_checked_export_sha256": "927660af84625e6ce76eb4f3f014c9ae9cf59fe5e2a400ffa500bd71a2a33ef8",
+      "reviewed_commit_sha256": "7a01809764a66dac1cd4f355b182ba72b480f08862429a604c21ec786bad0054",
+      "management_revision_sha256": "7a01809764a66dac1cd4f355b182ba72b480f08862429a604c21ec786bad0054",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 1,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/generation.py",
+      "previous_GPU_checked_export_sha256": "66c1b79372b8ed06aaa56f2890382e5b2aa59d3198f7f3c3e05cf92f701a2944",
+      "reviewed_commit_sha256": "56c0e491428caa69cdb8c84114f050834ee84cf534cf0a1b806cc8c1981cc6f7",
+      "management_revision_sha256": "56c0e491428caa69cdb8c84114f050834ee84cf534cf0a1b806cc8c1981cc6f7",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 4,
+      "docstrings_removed": 1,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/retrieval.py",
+      "previous_GPU_checked_export_sha256": "afe1783f3cf252e3df293c6c1e1e680a34ce3b83fcd0fa48ff67b7f37b5183f8",
+      "reviewed_commit_sha256": "178b12255afaddac337f83c31f2bf4cf6d016375cdaac12cdd1fa71eadc80a44",
+      "management_revision_sha256": "178b12255afaddac337f83c31f2bf4cf6d016375cdaac12cdd1fa71eadc80a44",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 2,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/validation/__init__.py",
+      "previous_GPU_checked_export_sha256": "9c972c614e739ebac36ddc7ffda130d2852c4156b28ac723d38932362a5be2f1",
+      "reviewed_commit_sha256": "9d68579e0542f57ff00d4557e37b3e7e2d970a6cf2a4d17479c35a385e9f787e",
+      "management_revision_sha256": "9d68579e0542f57ff00d4557e37b3e7e2d970a6cf2a4d17479c35a385e9f787e",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 0,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/validation/validator.py",
+      "previous_GPU_checked_export_sha256": "d570c42e6e232b62e155ac7d4964493d6a58d10bb671db8102ec57d664df5598",
+      "reviewed_commit_sha256": "6be9d4f4170080e02dc0e9c864fad1f38199f6093421e772c174763de40d24d9",
+      "management_revision_sha256": "6be9d4f4170080e02dc0e9c864fad1f38199f6093421e772c174763de40d24d9",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 1,
+      "docstrings_removed": 3,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "src/cso_rag/validation/validator_base.py",
+      "previous_GPU_checked_export_sha256": "a64e0eb0619c7ba0d25b28d1bcf25b6cc22477a7e1dab7d38a1de94fef545293",
+      "reviewed_commit_sha256": "69f476d6a87eb9658dd41a6e9242ae4748189982073f7965e59146b171562de0",
+      "management_revision_sha256": "69f476d6a87eb9658dd41a6e9242ae4748189982073f7965e59146b171562de0",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 2,
+      "docstrings_removed": 1,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "tests/test_contract.py",
+      "previous_GPU_checked_export_sha256": "29efd96060426fc45f9ff98ac6d27ad075371760030746c6b4c63fa0d4614b11",
+      "reviewed_commit_sha256": "29efd96060426fc45f9ff98ac6d27ad075371760030746c6b4c63fa0d4614b11",
+      "management_revision_sha256": "29efd96060426fc45f9ff98ac6d27ad075371760030746c6b4c63fa0d4614b11",
+      "byte_identical_to_previous_export": true,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 0,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "tests/test_pooling.py",
+      "previous_GPU_checked_export_sha256": "a5e5668b6d37ed972a46379b25aebb4c46b917919ae4c443a2f12c277f7b858f",
+      "reviewed_commit_sha256": "a5e5668b6d37ed972a46379b25aebb4c46b917919ae4c443a2f12c277f7b858f",
+      "management_revision_sha256": "a5e5668b6d37ed972a46379b25aebb4c46b917919ae4c443a2f12c277f7b858f",
+      "byte_identical_to_previous_export": true,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 0,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    },
+    {
+      "file": "tests/test_runner.py",
+      "previous_GPU_checked_export_sha256": "22947e8d31cd29bb7b379809207eabc94304c24bc941db4a27b4716e61d4e8f5",
+      "reviewed_commit_sha256": "f36c721a7fe315d7083ad1f498d695403433fd0221cbf1f2611ac9302a0f74ce",
+      "management_revision_sha256": "f36c721a7fe315d7083ad1f498d695403433fd0221cbf1f2611ac9302a0f74ce",
+      "byte_identical_to_previous_export": false,
+      "comment_tokens_removed": 0,
+      "docstrings_removed": 1,
+      "executable_AST_equal_after_excluding_docstrings": true,
+      "change_in_management_revision": false,
+      "note": "Docstring removal changes __doc__ metadata; executable AST comparison excludes docstrings. Line-ending/comment-only differences are not byte identity."
+    }
+  ],
+  "no_runtime_code_modified_in_this_revision": true
+}

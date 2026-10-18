@@ -1,0 +1,22 @@
+{
+  "revision": "public-management-paper-terms-20261018-02",
+  "basis_management_revision": "public-management-20261018-01",
+  "paper_reference": "p.7: Table 3 and IV.3 subsection 2",
+  "display_name_to_internal_version": {
+    "CSO-RAG 판정 기준": "v3-confirmed-20261011-02",
+    "RAG 기반 문단별 등급 판정": "v3.2-selective-criteria-20261012-03",
+    "자동 검증 개정본 r1": "v3.2-validation-r1-20261015-01"
+  },
+  "fixed_files_byte_identical_to_previous_management_revision": 29,
+  "runtime_assets_and_config_changed": false,
+  "README_result_table_values_unchanged": true,
+  "README_raw_model_JSON_unchanged": true,
+  "relative_links_checked": 24,
+  "broken_relative_links": [],
+  "license": "undecided",
+  "new_model_runs": 0,
+  "new_embeddings": 0,
+  "new_downloads": 0,
+  "github_modified": false,
+  "test_policy": "No repeated model or unit execution; runtime code is byte-identical to previous revision, whose 12 model-free tests passed. This revision checks documentation and file identity."
+}

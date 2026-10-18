@@ -1,0 +1,28 @@
+{
+  "distribution_version": "0.1.0",
+  "research_version_unchanged": true,
+  "changes": [
+    "Only evidence-enriched RAG; no A/B branches",
+    "Explicit CLI file paths and strict normalized JSON schemas",
+    "Separate index/prepare/capacity/run processes",
+    "Existing schema/grammar/validator and system prompt preserved",
+    "Same criteria selection rules extracted without original folder dependencies",
+    "New controlled index builder; no vector reuse in public wrapper",
+    "No automatic unresolved criterion alias mapping",
+    "Synthetic examples and model-free tests",
+    "Only original deduplicate_payload retained from case_support; unused legacy helpers excluded",
+    "Fix Pooling inspection for ST 5.7",
+    "Register process-local DLL PATH on Windows",
+    "Add real GPU synthetic smoke verification; no research setting changes",
+    "Management-only revision: restored local-resource/credential ignore rules",
+    "Preserve original hashes, correct current public hashes and verbatim flags, separate historical records",
+    "Add reproducibility documentation using confirmed model repository revisions",
+    "Clarify synthetic-document HTML panel caption; README tables and actual model JSON unchanged"
+  ],
+  "evaluation_not_included": true,
+  "license_not_assigned": true,
+  "native_GPU_loading_and_time_limit_notes": "New wrapper must be smoke-tested in target runtime before claiming generated performance equivalence.",
+  "export_revision": "public-management-20261018-01",
+  "historical_export_revision": "20261018_02_gpu_checked",
+  "basis_commit": "c33c8f920ee28e0bc0f6bb8fcce197bab067dccb"
+}
