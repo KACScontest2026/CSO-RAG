@@ -1,0 +1,172 @@
+{
+  "test_scope": "Synthetic operation check only; not classification performance or semantic evaluation",
+  "documents": 1,
+  "paragraphs": 2,
+  "retrieval_cases": 3,
+  "embeddings": {
+    "seconds": 0.5277612000354566,
+    "input_tokens": [
+      23,
+      25,
+      14
+    ],
+    "truncated": false,
+    "device": "cuda:0",
+    "dimension": 1024,
+    "pooling_modes": [
+      "lasttoken"
+    ],
+    "finite_values": true,
+    "l2_norms": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "dtype": "float32"
+  },
+  "index_build_seconds": 2.3856136000249535,
+  "capacity_passed": true,
+  "embedding_gpu_confirmed": true,
+  "llm_gpu_layers_actual": 37,
+  "llm_gpu_layers_total": 37,
+  "flash_attention_confirmed": true,
+  "actual_context": 45056,
+  "actual_YaRN": {
+    "rope_scaling_type": 2,
+    "rope_freq_scale": 0.25,
+    "yarn_orig_ctx": 32768,
+    "yarn_ext_factor": -1.0,
+    "yarn_attn_factor": 1.0,
+    "yarn_beta_fast": 32.0,
+    "yarn_beta_slow": 1.0
+  },
+  "thinking": false,
+  "stages": {
+    "01_check_input": {
+      "stage": "01_check_input",
+      "exit_code": 0,
+      "wall_seconds": 0.4145579999894835,
+      "peak_used_mib": 459,
+      "minimum_free_mib": 11655
+    },
+    "02b_build_index": {
+      "stage": "02b_build_index",
+      "exit_code": 0,
+      "wall_seconds": 17.212893999996595,
+      "peak_used_mib": 2931,
+      "minimum_free_mib": 9183
+    },
+    "03_prepare": {
+      "stage": "03_prepare",
+      "exit_code": 0,
+      "wall_seconds": 16.867148599994835,
+      "peak_used_mib": 2937,
+      "minimum_free_mib": 9177
+    },
+    "04b_capacity": {
+      "stage": "04b_capacity",
+      "exit_code": 0,
+      "wall_seconds": 13.112475999980234,
+      "peak_used_mib": 604,
+      "minimum_free_mib": 11510
+    },
+    "05_generation": {
+      "stage": "05_generation",
+      "exit_code": 0,
+      "wall_seconds": 75.97580740001285,
+      "peak_used_mib": 11459,
+      "minimum_free_mib": 655
+    }
+  },
+  "results": [
+    {
+      "paragraph_id": "demo-p01",
+      "proposed_label": "C",
+      "input_tokens": 7490,
+      "actual_output_tokens": 314,
+      "generation_seconds": 28.843464499979746,
+      "finish_reason": "stop",
+      "effective_end_reason": "stop",
+      "used_case_ids": [
+        "ref-case-02",
+        "ref-case-01",
+        "ref-case-03"
+      ],
+      "used_case_count": 3,
+      "truncated": false,
+      "semantic_validity": "not_evaluated",
+      "validation_status": "passed",
+      "validation_errors": [],
+      "diagnostics": [],
+      "model_review_requested": true,
+      "reason": "대상 문단은 연락처 정보를 포함하고 있으며, 이는 제4호의 '직무수행을 현저히 곤란하게 하거나 형사피고인의 공정한 재판을 받을 권리를 침해할 우려가 있는 정보'에 해당할 수 있습니다. 연락처 정보가 특정 사람의 신분을 특정할 수 있어 직무 수행에 지장을 줄 수 있는 가능성이 있습니다.",
+      "evidence_spans": [
+        {
+          "start": 0,
+          "end": 18,
+          "text": "연락처: 010-0000-0000.",
+          "evidence_id": "E:d01:p01:u001",
+          "namespace": "E",
+          "source_paragraph_id": "demo-p01",
+          "source_scope": "target",
+          "document_start": 0,
+          "document_end": 18
+        }
+      ]
+    },
+    {
+      "paragraph_id": "demo-p02",
+      "proposed_label": "S",
+      "input_tokens": 7490,
+      "actual_output_tokens": 342,
+      "generation_seconds": 31.7010596000473,
+      "finish_reason": "stop",
+      "effective_end_reason": "stop",
+      "used_case_ids": [
+        "ref-case-02",
+        "ref-case-01",
+        "ref-case-03"
+      ],
+      "used_case_count": 3,
+      "truncated": false,
+      "semantic_validity": "not_evaluated",
+      "validation_status": "passed",
+      "validation_errors": [],
+      "diagnostics": [],
+      "model_review_requested": true,
+      "reason": "대상 문단은 신청인 이름이 가상인물이라는 정보를 포함하고 있으며, 이는 '개인정보 보호법' 제2조제1호에 따른 개인정보에 해당할 수 있는 사항으로, 공개 시 사생활의 비밀 또는 자유를 침해할 우려가 있다고 인정될 수 있는 요건을 충족합니다. 다만, 해당 정보가 '법령에서 정하는 바에 따라 열람할 수 있는 정보'인지 여부는 문맥에서 확인되지 않아 예외 여부는 불확실합니다.",
+      "evidence_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "text": "신청인 이름은 가상인물입니다.",
+          "evidence_id": "E:d02:p02:u001",
+          "namespace": "E",
+          "source_paragraph_id": "demo-p02",
+          "source_scope": "target",
+          "document_start": 20,
+          "document_end": 35
+        }
+      ]
+    }
+  ],
+  "semantic_validity": "not_evaluated",
+  "old_results_unchanged": true,
+  "old_export_preserved": true,
+  "new_generations": 2,
+  "selective_model_retries": 0,
+  "new_index_only": true,
+  "weights_reused": true,
+  "downloads": 0,
+  "fresh_install_tested": false,
+  "compatibility_fixes": [
+    "Support ST 5.7 pooling_mode and legacy pooling_mode_lasttoken inspection; no pooling computation changes",
+    "Register configured CUDA DLL folders in process-local PATH for the Windows loader; no persistent environment or model setting changes"
+  ],
+  "AI_assisted_diagnostic_observation": {
+    "review_type": "AI-assisted diagnostic observation, not independent semantic evaluation",
+    "case": "demo-p01",
+    "observation": "The generated response applies FOI-9-1-4 to a synthetic contact-only target without showing investigation/trial-related work in the provided document. Structural validation passed; this does not establish criterion applicability.",
+    "action": "Output preserved; no prompt, criteria, label or generation adjustment and no selective retry."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "source_versions": {
+    "SRC1": [
+      "공공기관의 정보공개에 관한 법률",
+      "시행 2023.11.17 / 법률 제19408호, 2023.5.16 타법개정 — 확인한 조문 버전이며 2026.10.10 최신 법령이라고 단정하지 않음"
+    ],
+    "SRC2": [
+      "보안업무규정",
+      "[시행 2026. 5. 19.] [대통령령 제36336호, 2026. 5. 19., 일부개정]"
+    ],
+    "SRC3": [
+      "국회법",
+      "[시행 2026. 10. 2.] [법률 제21883호, 2026. 9. 8., 일부개정]"
+    ],
+    "SRC4": [
+      "통계법",
+      "[시행 2026. 7. 22.] [법률 제21575호, 2026. 4. 21., 일부개정]"
+    ],
+    "SRC5": [
+      "통신비밀보호법",
+      "[시행 2026. 10. 2.] [법률 제21989호, 2026. 9. 29., 일부개정]"
+    ],
+    "SRC6": [
+      "형의 실효 등에 관한 법률",
+      "[시행 2026. 10. 2.] [법률 제21490호, 2026. 3. 24., 타법개정]"
+    ],
+    "SRC7": [
+      "공직자윤리법",
+      "[시행 2026. 10. 2.] [법률 제21857호, 2026. 8. 4., 타법개정]"
+    ],
+    "SRC8": [
+      "국가공무원법",
+      "[시행 2026. 10. 2.] [법률 제21857호, 2026. 8. 4., 타법개정]"
+    ],
+    "SRC9": [
+      "공무원징계령",
+      "[시행 2026. 6. 30.] [대통령령 제36489호, 2026. 6. 30., 타법개정]"
+    ],
+    "SRC10": [
+      "전자정부법",
+      "[시행 2026. 8. 28.] [법률 제21394호, 2026. 2. 27., 일부개정]"
+    ],
+    "SRC11": [
+      "본인서명사실 확인 등에 관한 법률",
+      "[시행 2024. 12. 27.] [법률 제19841호, 2023. 12. 26., 타법개정]"
+    ],
+    "SRC12": [
+      "지방세기본법",
+      "[시행 2026. 10. 2.] [법률 제22017호, 2026. 9. 29., 일부개정]"
+    ],
+    "SRC13": [
+      "개인정보 보호법",
+      "[시행 2026. 9. 11.] [법률 제21445호, 2026. 3. 10., 일부개정]"
+    ],
+    "SRC14": [
+      "행정안전부 비공개 대상정보 세부기준",
+      "2026년 기준"
+    ],
+    "SRC15": [
+      "국가 망 보안체계 보안 가이드라인 1.0",
+      "표지2025.9 / 문서이력2025.9 1.0"
+    ]
+  },
+  "record_source_bindings": {
+    "LAW-FOI-9-1": "SRC1",
+    "LAW-FOI-9-1-1": "SRC1",
+    "LAW-FOI-9-1-2": "SRC1",
+    "LAW-FOI-9-1-3": "SRC1",
+    "LAW-FOI-9-1-4": "SRC1",
+    "LAW-FOI-9-1-5": "SRC1",
+    "LAW-FOI-9-1-6": "SRC1",
+    "LAW-FOI-9-1-7": "SRC1",
+    "LAW-FOI-9-1-8": "SRC1",
+    "LAW-FOI-9-2": "SRC1",
+    "LAW-FOI-9-3": "SRC1",
+    "LAW-IND-01": "SRC2",
+    "LAW-IND-02": "SRC3",
+    "LAW-IND-03": "SRC4",
+    "LAW-IND-04": "SRC5",
+    "LAW-IND-05": "SRC6",
+    "LAW-IND-06": "SRC7",
+    "LAW-IND-07": "SRC8",
+    "LAW-IND-08": "SRC9",
+    "LAW-IND-09": "SRC10",
+    "LAW-IND-10": "SRC11",
+    "LAW-IND-11": "SRC12",
+    "LAW-IND-12": "SRC13",
+    "MOIS-2026-COMMON-ROW-001": "SRC14",
+    "MOIS-2026-COMMON-ROW-002": "SRC14",
+    "MOIS-2026-COMMON-ROW-003": "SRC14",
+    "MOIS-2026-COMMON-ROW-004": "SRC14",
+    "MOIS-2026-COMMON-ROW-005": "SRC14",
+    "MOIS-2026-COMMON-ROW-006": "SRC14",
+    "MOIS-2026-COMMON-ROW-007": "SRC14",
+    "MOIS-2026-COMMON-ROW-008": "SRC14",
+    "MOIS-2026-COMMON-ROW-009": "SRC14",
+    "MOIS-2026-COMMON-ROW-010": "SRC14",
+    "MOIS-2026-COMMON-ROW-011": "SRC14",
+    "MOIS-2026-COMMON-ROW-012": "SRC14",
+    "MOIS-2026-COMMON-ROW-013": "SRC14",
+    "MOIS-2026-COMMON-ROW-014": "SRC14",
+    "MOIS-2026-COMMON-ROW-015": "SRC14",
+    "MOIS-2026-COMMON-ROW-016": "SRC14",
+    "MOIS-2026-COMMON-ROW-017": "SRC14",
+    "MOIS-2026-COMMON-ROW-018": "SRC14",
+    "MOIS-2026-COMMON-ROW-019": "SRC14",
+    "MOIS-2026-COMMON-ROW-020": "SRC14",
+    "MOIS-2026-COMMON-ROW-021": "SRC14",
+    "MOIS-2026-COMMON-ROW-022": "SRC14",
+    "MOIS-2026-COMMON-ROW-023": "SRC14",
+    "MOIS-2026-COMMON-ROW-024": "SRC14",
+    "MOIS-2026-COMMON-ROW-025": "SRC14",
+    "MOIS-2026-COMMON-ROW-026": "SRC14",
+    "MOIS-2026-COMMON-ROW-027": "SRC14",
+    "MOIS-2026-COMMON-ROW-028": "SRC14",
+    "MOIS-2026-COMMON-ROW-029": "SRC14",
+    "MOIS-2026-COMMON-ROW-030": "SRC14",
+    "MOIS-2026-COMMON-ROW-031": "SRC14",
+    "MOIS-2026-COMMON-ROW-032": "SRC14",
+    "MOIS-2026-COMMON-ROW-033": "SRC14",
+    "MOIS-2026-DEPT-ROW-001": "SRC14",
+    "MOIS-2026-DEPT-ROW-002": "SRC14",
+    "MOIS-2026-DEPT-ROW-003": "SRC14",
+    "MOIS-2026-DEPT-ROW-004": "SRC14",
+    "MOIS-2026-DEPT-ROW-005": "SRC14",
+    "MOIS-2026-DEPT-ROW-006": "SRC14",
+    "MOIS-2026-DEPT-ROW-007": "SRC14",
+    "MOIS-2026-DEPT-ROW-008": "SRC14",
+    "MOIS-2026-DEPT-ROW-009": "SRC14",
+    "MOIS-2026-DEPT-ROW-010": "SRC14",
+    "MOIS-2026-DEPT-ROW-011": "SRC14",
+    "MOIS-2026-DEPT-ROW-012": "SRC14",
+    "MOIS-2026-DEPT-ROW-013": "SRC14",
+    "MOIS-2026-DEPT-ROW-014": "SRC14",
+    "MOIS-2026-DEPT-ROW-015": "SRC14",
+    "MOIS-2026-DEPT-ROW-016": "SRC14",
+    "MOIS-2026-DEPT-ROW-017": "SRC14",
+    "MOIS-2026-DEPT-ROW-018": "SRC14",
+    "MOIS-2026-DEPT-ROW-019": "SRC14",
+    "MOIS-2026-DEPT-ROW-020": "SRC14",
+    "MOIS-2026-DEPT-ROW-021": "SRC14",
+    "MOIS-2026-DEPT-ROW-022": "SRC14",
+    "MOIS-2026-DEPT-ROW-023": "SRC14",
+    "MOIS-2026-DEPT-ROW-024": "SRC14",
+    "MOIS-2026-DEPT-ROW-025": "SRC14",
+    "MOIS-2026-DEPT-ROW-026": "SRC14",
+    "MOIS-2026-DEPT-ROW-027": "SRC14",
+    "MOIS-2026-DEPT-ROW-028": "SRC14",
+    "MOIS-2026-DEPT-ROW-029": "SRC14",
+    "MOIS-2026-DEPT-ROW-030": "SRC14",
+    "MOIS-2026-DEPT-ROW-031": "SRC14",
+    "MOIS-2026-DEPT-ROW-032": "SRC14",
+    "MOIS-2026-DEPT-ROW-033": "SRC14",
+    "MOIS-2026-DEPT-ROW-034": "SRC14",
+    "MOIS-2026-DEPT-ROW-035": "SRC14",
+    "MOIS-2026-DEPT-ROW-036": "SRC14",
+    "MOIS-2026-DEPT-ROW-037": "SRC14",
+    "MOIS-2026-DEPT-ROW-038": "SRC14",
+    "MOIS-2026-DEPT-ROW-039": "SRC14",
+    "MOIS-2026-DEPT-ROW-040": "SRC14",
+    "MOIS-2026-DEPT-ROW-041": "SRC14",
+    "MOIS-2026-DEPT-ROW-042": "SRC14",
+    "MOIS-2026-DEPT-ROW-043": "SRC14",
+    "MOIS-2026-DEPT-ROW-044": "SRC14",
+    "MOIS-2026-DEPT-ROW-045": "SRC14",
+    "MOIS-2026-DEPT-ROW-046": "SRC14",
+    "MOIS-2026-DEPT-ROW-047": "SRC14",
+    "MOIS-2026-DEPT-ROW-048": "SRC14",
+    "MOIS-2026-DEPT-ROW-049": "SRC14",
+    "MOIS-2026-DEPT-ROW-050": "SRC14",
+    "MOIS-2026-DEPT-ROW-051": "SRC14",
+    "MOIS-2026-DEPT-ROW-052": "SRC14",
+    "MOIS-2026-DEPT-ROW-053": "SRC14",
+    "MOIS-2026-DEPT-ROW-054": "SRC14",
+    "MOIS-2026-DEPT-ROW-055": "SRC14",
+    "MOIS-2026-DEPT-ROW-056": "SRC14",
+    "MOIS-2026-DEPT-ROW-057": "SRC14",
+    "MOIS-2026-DEPT-ROW-058": "SRC14",
+    "MOIS-2026-DEPT-ROW-059": "SRC14",
+    "MOIS-2026-DEPT-ROW-060": "SRC14",
+    "MOIS-2026-DEPT-ROW-061": "SRC14",
+    "MOIS-2026-DEPT-ROW-062": "SRC14",
+    "MOIS-2026-DEPT-ROW-063": "SRC14",
+    "MOIS-2026-DEPT-ROW-064": "SRC14",
+    "MOIS-2026-DEPT-ROW-065": "SRC14",
+    "MOIS-2026-DEPT-ROW-066": "SRC14",
+    "MAP-C": "SRC15",
+    "MAP-S": "SRC15",
+    "MAP-LOG": "SRC15",
+    "MAP-O-PUBLIC": "SRC15",
+    "MAP-O-RELEASE": "SRC15"
+  }
+}

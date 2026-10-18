@@ -1,0 +1,17 @@
+[
+  {
+    "page": 12,
+    "text": "고려 사항 ● 보안 등급 분류 목적성과 거리가 있는 BRM 분류체계의 특성을 고려하여 시스템 운영의 목적과 관련 법규 등의 유관 자료 추가 분석 ● 다수의 시스템과 연계되는 정보에 대한 등급 분류 오류 여부 검증 ( 해당 사례 발생 시 식별된 등급 중 가장 높은 등급 부여 ) ",
+    "role": "supporting_workflow_context_not_document_grade_rule"
+  },
+  {
+    "page": 13,
+    "text": "관련 법규 연계 시스템 운영 근거 법령 정보 조사 . 정보 공개 관련 조문 확인 등급 후보값 Table 내 컬럼내에 기술된 등급 연관 키워드를 분석하여 C/S/O 등급 기입 판정 근거 정보공개법 제 9 조 요건 , 관련 법규 , 컬럼에서 발견된 키워드 등을 기입 ",
+    "role": "supporting_workflow_context_not_document_grade_rule"
+  },
+  {
+    "page": 14,
+    "text": "판정 근거 정보공개법 제 9 조 등 참조한 C/S/O 분류 판단 기준 기입 C/S/O 분류 결과 등급 연관 키워드 및 관련 근거를 기반으로 C/S/O 등급 기입 ",
+    "role": "supporting_workflow_context_not_document_grade_rule"
+  }
+]

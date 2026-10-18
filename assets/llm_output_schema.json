@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "paragraph_id",
+    "proposed_label",
+    "applied_criteria",
+    "reason",
+    "review_required",
+    "o_assessment"
+  ],
+  "properties": {
+    "paragraph_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposed_label": {
+      "enum": [
+        "C",
+        "S",
+        "O",
+        null
+      ]
+    },
+    "applied_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion_id",
+          "evidence_ids",
+          "satisfaction_reason"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string",
+            "enum": [
+              "FOI-9-1-1",
+              "FOI-9-1-2",
+              "FOI-9-1-3",
+              "FOI-9-1-4",
+              "FOI-9-1-5",
+              "FOI-9-1-6",
+              "FOI-9-1-7",
+              "FOI-9-1-8",
+              "N2SF-S-LOG-BACKUP",
+              "O-PUBLIC",
+              "N2SF-O-RELEASED"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "satisfaction_reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "o_assessment": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "basis",
+            "reviewed_paragraph_ids",
+            "cs_exclusion_summary",
+            "uncertainty_note"
+          ],
+          "properties": {
+            "basis": {
+              "enum": [
+                "cs_non_applicable",
+                "non_disclosure_expired"
+              ]
+            },
+            "reviewed_paragraph_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "cs_exclusion_summary": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uncertainty_note": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "proposed_label": {
+          "const": "C"
+        },
+        "applied_criteria": {
+          "minItems": 1,
+          "items": {
+            "properties": {
+              "criterion_id": {
+                "enum": [
+                  "FOI-9-1-1",
+                  "FOI-9-1-2",
+                  "FOI-9-1-3",
+                  "FOI-9-1-4",
+                  "FOI-9-1-5",
+                  "FOI-9-1-6",
+                  "FOI-9-1-7",
+                  "FOI-9-1-8",
+                  "N2SF-S-LOG-BACKUP"
+                ]
+              }
+            }
+          },
+          "contains": {
+            "properties": {
+              "criterion_id": {
+                "enum": [
+                  "FOI-9-1-1",
+                  "FOI-9-1-2",
+                  "FOI-9-1-3",
+                  "FOI-9-1-4"
+                ]
+              }
+            },
+            "required": [
+              "criterion_id"
+            ]
+          }
+        },
+        "o_assessment": {
+          "type": "null"
+        }
+      }
+    },
+    {
+      "properties": {
+        "proposed_label": {
+          "const": "S"
+        },
+        "applied_criteria": {
+          "minItems": 1,
+          "items": {
+            "properties": {
+              "criterion_id": {
+                "enum": [
+                  "FOI-9-1-5",
+                  "FOI-9-1-6",
+                  "FOI-9-1-7",
+                  "FOI-9-1-8",
+                  "N2SF-S-LOG-BACKUP"
+                ]
+              }
+            }
+          }
+        },
+        "o_assessment": {
+          "type": "null"
+        }
+      }
+    },
+    {
+      "properties": {
+        "proposed_label": {
+          "const": "O"
+        },
+        "applied_criteria": {
+          "minItems": 0,
+          "items": {
+            "properties": {
+              "criterion_id": {
+                "enum": [
+                  "O-PUBLIC"
+                ]
+              }
+            }
+          },
+          "maxItems": 1
+        },
+        "o_assessment": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "const": "cs_non_applicable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "proposed_label": {
+          "const": "O"
+        },
+        "applied_criteria": {
+          "minItems": 1,
+          "items": {
+            "properties": {
+              "criterion_id": {
+                "enum": [
+                  "N2SF-O-RELEASED"
+                ]
+              }
+            }
+          },
+          "maxItems": 1
+        },
+        "o_assessment": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "const": "non_disclosure_expired"
+            }
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "proposed_label": {
+          "const": null
+        },
+        "applied_criteria": {
+          "maxItems": 0
+        },
+        "review_required": {
+          "const": true
+        },
+        "o_assessment": {
+          "type": "null"
+        }
+      }
+    }
+  ],
+  "x-contract": "Native GBNF five branches + unique ordered subsets. Standard schema plus executable serialization-order checks. Context relation and semantic sufficiency remain postchecks/human review."
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "criterion_id": "FOI-9-1-1",
+    "label": "C",
+    "law_records": [
+      "LAW-FOI-9-1-1",
+      "LAW-IND-01",
+      "LAW-IND-02",
+      "LAW-IND-03",
+      "LAW-IND-04",
+      "LAW-IND-05",
+      "LAW-IND-06",
+      "LAW-IND-07",
+      "LAW-IND-08",
+      "LAW-IND-09",
+      "LAW-IND-10",
+      "LAW-IND-11"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-001",
+      "MOIS-2026-COMMON-ROW-002",
+      "MOIS-2026-COMMON-ROW-003",
+      "MOIS-2026-COMMON-ROW-004",
+      "MOIS-2026-COMMON-ROW-005",
+      "MOIS-2026-DEPT-ROW-005",
+      "MOIS-2026-DEPT-ROW-013",
+      "MOIS-2026-DEPT-ROW-033",
+      "MOIS-2026-DEPT-ROW-046",
+      "MOIS-2026-DEPT-ROW-053",
+      "MOIS-2026-DEPT-ROW-054"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-C"
+    ],
+    "original_v2_text": "제1호: 법률상 비밀·비공개로 규정",
+    "original_v2_notes": "정보 자체를 비밀 또는 비공개로 정하는 법률상 근거를 확인한다. 일반적인 보안 의무 언급만으로 적용하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-2",
+    "label": "C",
+    "law_records": [
+      "LAW-FOI-9-1-2"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-006",
+      "MOIS-2026-COMMON-ROW-007",
+      "MOIS-2026-COMMON-ROW-008",
+      "MOIS-2026-COMMON-ROW-009",
+      "MOIS-2026-COMMON-ROW-010",
+      "MOIS-2026-COMMON-ROW-011",
+      "MOIS-2026-DEPT-ROW-024",
+      "MOIS-2026-DEPT-ROW-026",
+      "MOIS-2026-DEPT-ROW-027",
+      "MOIS-2026-DEPT-ROW-028",
+      "MOIS-2026-DEPT-ROW-029",
+      "MOIS-2026-DEPT-ROW-030",
+      "MOIS-2026-DEPT-ROW-031",
+      "MOIS-2026-DEPT-ROW-034",
+      "MOIS-2026-DEPT-ROW-035",
+      "MOIS-2026-DEPT-ROW-036",
+      "MOIS-2026-DEPT-ROW-039",
+      "MOIS-2026-DEPT-ROW-058",
+      "MOIS-2026-DEPT-ROW-059",
+      "MOIS-2026-DEPT-ROW-060",
+      "MOIS-2026-DEPT-ROW-061",
+      "MOIS-2026-DEPT-ROW-063",
+      "MOIS-2026-DEPT-ROW-064",
+      "MOIS-2026-DEPT-ROW-065"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-C"
+    ],
+    "original_v2_text": "제2호: 안보·국방·통일·외교 관련 공개 시 국가적 위해",
+    "original_v2_notes": "공개로 인한 국가적 위해 조건을 확인한다. 군사·안보라는 주제만으로 적용하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-3",
+    "label": "C",
+    "law_records": [
+      "LAW-FOI-9-1-3"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-012",
+      "MOIS-2026-DEPT-ROW-047"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-C"
+    ],
+    "original_v2_text": "제3호: 공개 시 국민 생명·신체·재산보호에 현저한 지장초래",
+    "original_v2_notes": "입력 정보의 공개가 생명·신체·재산 보호에 현저한 지장을 초래하는 관계를 원문과 필요한 맥락으로 설명한다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-4",
+    "label": "C",
+    "law_records": [
+      "LAW-FOI-9-1-4"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-013",
+      "MOIS-2026-COMMON-ROW-014",
+      "MOIS-2026-COMMON-ROW-015",
+      "MOIS-2026-DEPT-ROW-055"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-FOI4-HARM-OR",
+      "P-TIME",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-C"
+    ],
+    "original_v2_text": "제4호: 진행 중 재판 및 범죄예방·수사·공소·형집행·교정 관련 정보로, 공개 시 현저한 직무수행 곤란 및 피고인 재판권 침해",
+    "original_v2_notes": "관련 업무 정보 여부와 공개 시 현저한 수행 곤란 또는 재판권 침해 조건을 확인한다. 수사라는 단어만으로 적용하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [
+      "P-FOI4-HARM-OR",
+      "P-TIME"
+    ],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-5",
+    "label": "S",
+    "law_records": [
+      "LAW-FOI-9-1-5"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-016",
+      "MOIS-2026-COMMON-ROW-017",
+      "MOIS-2026-COMMON-ROW-018",
+      "MOIS-2026-COMMON-ROW-019",
+      "MOIS-2026-COMMON-ROW-020",
+      "MOIS-2026-COMMON-ROW-021",
+      "MOIS-2026-COMMON-ROW-022",
+      "MOIS-2026-COMMON-ROW-023",
+      "MOIS-2026-DEPT-ROW-001",
+      "MOIS-2026-DEPT-ROW-002",
+      "MOIS-2026-DEPT-ROW-004",
+      "MOIS-2026-DEPT-ROW-007",
+      "MOIS-2026-DEPT-ROW-008",
+      "MOIS-2026-DEPT-ROW-009",
+      "MOIS-2026-DEPT-ROW-011",
+      "MOIS-2026-DEPT-ROW-012",
+      "MOIS-2026-DEPT-ROW-014",
+      "MOIS-2026-DEPT-ROW-020",
+      "MOIS-2026-DEPT-ROW-022",
+      "MOIS-2026-DEPT-ROW-025",
+      "MOIS-2026-DEPT-ROW-032",
+      "MOIS-2026-DEPT-ROW-037",
+      "MOIS-2026-DEPT-ROW-038",
+      "MOIS-2026-DEPT-ROW-040",
+      "MOIS-2026-DEPT-ROW-041",
+      "MOIS-2026-DEPT-ROW-045",
+      "MOIS-2026-DEPT-ROW-048",
+      "MOIS-2026-DEPT-ROW-050",
+      "MOIS-2026-DEPT-ROW-051",
+      "MOIS-2026-DEPT-ROW-052"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-S"
+    ],
+    "original_v2_text": "제5호: 감사·감독·검사·시험·입찰계약·기술개발·인사관리 및 의사결정·내부검토 관련 정보로, 공개 시 공정한 업무수행, 연구개발 등에 현저한 지장",
+    "original_v2_notes": "업무 종류와 공개로 인한 현저한 지장 조건을 함께 확인한다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-6",
+    "label": "S",
+    "law_records": [
+      "LAW-FOI-9-1-6",
+      "LAW-IND-12"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-024",
+      "MOIS-2026-COMMON-ROW-025",
+      "MOIS-2026-COMMON-ROW-026",
+      "MOIS-2026-COMMON-ROW-027",
+      "MOIS-2026-DEPT-ROW-003",
+      "MOIS-2026-DEPT-ROW-006",
+      "MOIS-2026-DEPT-ROW-010",
+      "MOIS-2026-DEPT-ROW-015",
+      "MOIS-2026-DEPT-ROW-016",
+      "MOIS-2026-DEPT-ROW-017",
+      "MOIS-2026-DEPT-ROW-018",
+      "MOIS-2026-DEPT-ROW-019",
+      "MOIS-2026-DEPT-ROW-021",
+      "MOIS-2026-DEPT-ROW-023",
+      "MOIS-2026-DEPT-ROW-042",
+      "MOIS-2026-DEPT-ROW-043",
+      "MOIS-2026-DEPT-ROW-044",
+      "MOIS-2026-DEPT-ROW-049",
+      "MOIS-2026-DEPT-ROW-056",
+      "MOIS-2026-DEPT-ROW-066"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-PRIVACY",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-S"
+    ],
+    "original_v2_text": "제6호: 성명·주민번호 등 개인정보로, 공개 시 사생활 침해",
+    "original_v2_notes": "개인정보 및 공개 시 사생활 침해 조건을 확인한다. 이름이나 연락처가 있다는 이유만으로 공개 예외·공개 맥락을 무시하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [
+      "P-PRIVACY"
+    ],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-7",
+    "label": "S",
+    "law_records": [
+      "LAW-FOI-9-1-7"
+    ],
+    "institution_records": [
+      "MOIS-2026-COMMON-ROW-028",
+      "MOIS-2026-COMMON-ROW-029",
+      "MOIS-2026-COMMON-ROW-030",
+      "MOIS-2026-COMMON-ROW-031",
+      "MOIS-2026-COMMON-ROW-032",
+      "MOIS-2026-COMMON-ROW-033",
+      "MOIS-2026-DEPT-ROW-057",
+      "MOIS-2026-DEPT-ROW-062"
+    ],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-S"
+    ],
+    "original_v2_text": "제7호: 법인·단체·개인의 경영상·영업상 비밀로, 공개 시 이익 침해",
+    "original_v2_notes": "경영상·영업상 비밀과 공개 시 이익 침해 조건을 확인한다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "FOI-9-1-8",
+    "label": "S",
+    "law_records": [
+      "LAW-FOI-9-1-8"
+    ],
+    "institution_records": [],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-S"
+    ],
+    "original_v2_text": "제8호: 공개 시 부동산투기, 매점매석으로 특정인에게 이익·불이익",
+    "original_v2_notes": "공개로 인한 투기·매점매석 및 특정인의 이익·불이익 관계를 확인한다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "N2SF-S-LOG-BACKUP",
+    "label": "S",
+    "law_records": [],
+    "institution_records": [],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-LOG",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-LOG"
+    ],
+    "original_v2_text": "기타: 로그 및 임시백업 등",
+    "original_v2_notes": "로그 및 임시백업은 표에서 S로 제시된다. 단어를 언급한 일반 설명과 실제 로그·백업 정보를 구분하고 C 조건도 확인한다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [
+      "P-LOG"
+    ],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "O-PUBLIC",
+    "label": "O",
+    "law_records": [
+      "LAW-FOI-9-1"
+    ],
+    "institution_records": [],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-O",
+      "P-TIME",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-O-PUBLIC"
+    ],
+    "original_v2_text": "기밀(C)·민감(S) 정보 이외의 정보",
+    "original_v2_notes": "적용 가능한 C/S 조건과 필요한 맥락을 점검한 뒤 분류한다. 정보가 부족하다는 이유만으로 O를 제안하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [
+      "P-O",
+      "P-TIME"
+    ],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  },
+  {
+    "criterion_id": "N2SF-O-RELEASED",
+    "label": "O",
+    "law_records": [],
+    "institution_records": [],
+    "project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD",
+      "P-O",
+      "P-TIME",
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ],
+    "n2sf_records": [
+      "MAP-O-RELEASE"
+    ],
+    "original_v2_text": "관련 법령 등에서 규정하는 요건을 충족한 비공개 정보 또는 기간의 경과 등으로 비공개 필요성이 소멸된 정보",
+    "original_v2_notes": "법령상 요건 충족 또는 비공개 필요성 소멸의 근거를 확인한다. 오래된 날짜만으로 소멸을 추정하지 않는다.",
+    "label_application_verified": false,
+    "v3_condition": "법률 원문과 프로젝트 적용 지침을 구분한다. 제4호 위해는 법률의 하거나에 따라 OR로 판단하며 표의 및 전사는 유지한다. 제9조제2항에 따른 비공개 필요성 소멸 판단은 이번 연구에서 제외.",
+    "reference_only_law_records": [
+      "LAW-FOI-9-2"
+    ],
+    "excluded_decision_path": "기간 경과 등에 따른 비공개 필요성 소멸",
+    "study_application": "출처의 매핑 의미만 보존. 소멸 경로 판정에는 사용하지 않으며 법령상 공개 요건 충족 경로도 현 프로토콜에 자동 추가하지 않음.",
+    "common_project_records": [
+      "P-SCOPE",
+      "P-CONDITION",
+      "P-INSTITUTION",
+      "P-CONTEXT",
+      "P-EVIDENCE",
+      "P-UNCERTAINTY",
+      "P-NO-GOLD"
+    ],
+    "additional_project_records": [
+      "P-O",
+      "P-TIME"
+    ],
+    "system_project_records": [
+      "P-AGGREGATION",
+      "P-VALIDATION",
+      "P-ALIAS"
+    ]
+  }
+]

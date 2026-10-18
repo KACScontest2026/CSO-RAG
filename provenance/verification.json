@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": {
+    "prepared_inputs": 465,
+    "identical_logical_payload": 465,
+    "identical_registry": 465,
+    "identical_selection": 465,
+    "identical_schema": 465,
+    "identical_grammar": 465,
+    "completed_saved_responses_revalidated": 461,
+    "identical_validation": 461
+  },
+  "synthetic_contract_tests": 12,
+  "original_frozen_execution_files_unchanged": 12,
+  "original_copied_files_unchanged": 12,
+  "reference_path_sanitization": [],
+  "models_loaded": true,
+  "new_embeddings": 5,
+  "new_generations": 2,
+  "original_indices_changed": false,
+  "not_verified": [
+    "Fresh-environment dependency installation",
+    "Semantic correctness of criteria application",
+    "Full research-data performance reproduction",
+    "Long-input and bulk-load stability in the public wrapper"
+  ],
+  "scope": "Saved C requests and completed C responses were read locally for regression checks. No source documents, original case examples, predicted responses, or per-document test outputs are included in this export.",
+  "synthetic_runner_test": "Fake generation only: save result, aggregate, same-input resume without duplicate generation; no real model or GPU",
+  "public_cli_input_check_passed": true,
+  "real_gpu_smoke_passed": true
+}
